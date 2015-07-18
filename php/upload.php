@@ -6,7 +6,7 @@ upload();
 
  function upload(){
 	  
-	$file = file_get_contents($_FILES['fileToUpload']['tmp_name']); // Grab file   
+    $file = file_get_contents($_FILES['fileToUpload']['tmp_name']); // Grab file   
 	
 	// Specifies Files endpoint
     $url = 'https://api.parse.com/1/files/' . $_FILES['fileToUpload']['name'];   
