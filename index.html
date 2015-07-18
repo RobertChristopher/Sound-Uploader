@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>File Uploader</title>
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta name="MobileOptimized" content="320">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    </head>
+    <body>
+		<div class="main">
+			<div class="formgroup">
+				<form action="http://solecarts.oo.gd/monitor/debug.php" method="post" enctype="multipart/form-data">
+					Select MP3 file to upload:
+					<input type="file" name="fileToUpload" id="fileToUpload"/>
+					<input type="text" name="nameOfFile" id="nameOfFile" placeholder="Name"/>
+					<input type="text" name="submitter" id="nameOfFile" placeholder="Submitter"/>
+					<input type="submit" value="Upload MP3" name="submit">
+				</form>
+				<input type="hidden" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" />
+			</div>
+		</div>
+    </body>
+</html>    

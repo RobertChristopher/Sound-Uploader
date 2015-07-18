@@ -1,0 +1,18 @@
+.formgroup {
+    margin: auto;
+    width: 60%;
+    padding: 35px;
+}
+
+.main {
+    background-color: #ecf0f1;
+    margin: 125px auto;
+    width: 600px;
+    height: 150px;
+    border-radius: 60px;
+    border-bottom-right-radius: 0px;
+}
+
+body {
+    background-color: #2980b9;
+}
