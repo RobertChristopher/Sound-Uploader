@@ -2,7 +2,7 @@
 
 // Specify our app keys.
 
-    define("appId",<APP KEY>);
-    define("restKey",<REST KEY>);
+    define("appId","kJawWr0883JUddCTgipaPphexvb3tPUY3Cq9E5uE");
+	define("restKey","ZYiM8CPrDCgvOxhoslMSPT5qN05EhTqqFwOkP2LA");
 
 ?>
