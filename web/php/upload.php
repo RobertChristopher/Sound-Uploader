@@ -32,7 +32,7 @@ upload();
    
    if(isset($response['name'])) {    // Checks for 'name' in JSON response
 	   if(associate($response['name'])){ 
-		   Header('Location: http://localhost/DCXP/Sound-Uploader/index.html');  // Redirect the user
+		   Header('Location: https://parse-api-fileuploader.herokuapp.com/index.html');  // Redirect the user
 	   }else{
 		   echo 'A fatal error has occured.';
 	   }
